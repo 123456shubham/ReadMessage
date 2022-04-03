@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/player_img" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/player_name"
+        android:textColor="#000505"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/battingstats"
+        android:textColor="#000505" />
+
+    <TextView
+        android:id="@+id/player_runs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/runs"
+        android:textColor="#000505"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/playere_sr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SR"
+        android:textAlignment="center"
+        android:textColor="#000505" />
+
+    <TextView
+        android:id="@+id/player_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000505"
+        android:textAlignment="center"
+        android:text="@string/sixes" />
+
+    <TextView
+        android:id="@+id/player_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fours"
+        android:textColor="#000505"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+    <TextView
+        android:id="@+id/player_fifty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000505"
+        android:textAlignment="center"
+        android:text="@string/fifties" />
+
+    <TextView
+        android:id="@+id/player_hundred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000505"
+        android:textAlignment="center"
+        android:text="@string/hundreds" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000505"
+        android:text="@string/bowlingstats" />
+
+    <TextView
+        android:id="@+id/player_wickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000505"
+        android:textAlignment="center"
+        android:text="@string/wkts" />
+
+    <TextView
+        android:id="@+id/player_economy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000505"
+        android:textAlignment="center"
+        android:text="@string/ecnmy" />
+
+    <TextView
+        android:id="@+id/player_wide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000505"
+        android:textAlignment="center"
+        android:text="@string/wide" />
+
+    <TextView
+        android:id="@+id/player_noball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000505"
+        android:text="@string/nb" />
+
+    <Button
+        android:id="@+id/add"
+        style="@android:style/Widget.Holo.Light.Button.Small"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ADD"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.Button" />
+
+</LinearLayout>
