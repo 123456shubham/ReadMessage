@@ -3,10 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_business_loan.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable-v24/ic_car_loan.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable-v24/ic_gold_loan.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable-v24/ic_home_loan.xml" value="0.2885" />
+        <entry key="app/src/main/res/drawable-v24/ic_personal_loan.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable-v24/ic_property_loan.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/custom_btn.xml" value="0.188" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.3365036231884058" />
+        <entry key="app/src/main/res/layout/activity_home_page2.xml" value="0.10740740740740741" />
+        <entry key="app/src/main/res/layout/activity_loan_type.xml" value="0.10740740740740741" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3365036231884058" />
-        <entry key="app/src/main/res/layout/activity_read_smsactivity.xml" value="0.12222222222222222" />
-        <entry key="app/src/main/res/layout/activity_send_otp.xml" value="0.12222222222222222" />
+        <entry key="app/src/main/res/layout/activity_page_two.xml" value="0.3292572463768116" />
+        <entry key="app/src/main/res/layout/activity_payment_page.xml" value="0.3292572463768116" />
+        <entry key="app/src/main/res/layout/activity_read_smsactivity.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_send_otp.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/custom_date_picker.xml" value="0.3292572463768116" />
+        <entry key="app/src/main/res/layout/custom_loan_type.xml" value="0.5" />
         <entry key="app/src/main/res/layout/custom_read_message.xml" value="0.16" />
       </map>
     </option>
